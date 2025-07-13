@@ -1,5 +1,3 @@
-## **📁 threat-model/architecture.md**
-```markdown
 # System Architecture
 
 ## Overview
@@ -56,5 +54,3 @@ graph TD
     
     K[Security Monitoring] --> L[Threat Detection]
     L --> M[Incident Response]
-    ```
-    ```
