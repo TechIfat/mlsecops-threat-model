@@ -180,8 +180,8 @@ git push origin feature-branch
 
 ### For Business Stakeholders
 - [Business Impact Analysis](docs/business-impact.md)
-- [Executive Summary](executive-summary.json)
-- [Compliance Mapping](compliance-report.json)
+- [Executive Summary](automation/reporting.py) - Generated automatically
+- [Compliance Mapping](automation/reporting.py) - Generated automatically
 
 ### For Developers
 - [Automation Scripts](automation/)
@@ -189,7 +189,6 @@ git push origin feature-branch
 
 ## Support
 
-### Contact
 ### Contact
 - 💼 LinkedIn: [Ifat Noreen](https://www.linkedin.com/in/ifat-noreen-89b00483/)
 - 🐙 GitHub: [TechIfat](https://github.com/TechIfat)
