@@ -42,6 +42,7 @@ git clone https://github.com/yourusername/mlsecops-threat-model.git
 cd mlsecops-threat-model
 pip install -r requirements.txt
 ```
+
 ### Usage
 #### Run Threat Validation
 ```bash
@@ -61,5 +62,35 @@ python automation/reporting.py
 ```
 This generates executive summaries and technical reports.
 
-#### Key Features
+## Key Features
+
+### 🔍 Comprehensive Threat Analysis
+- **5 major threat categories** with detailed risk assessments
+- **Business impact quantification** with financial projections
+- **Attack scenario mapping** with realistic examples
+- **STRIDE compliance** with ML-specific extensions
+
+### 🛡️ Security Controls Framework
+- **Preventive controls** for threat mitigation
+- **Detective controls** for early warning
+- **Automated testing** for control validation
+- **Implementation roadmap** with cost estimates
+
+### 📊 Automated Reporting
+- **Executive dashboards** for business stakeholders
+- **Technical reports** for security teams
+- **Compliance mapping** for regulatory requirements
+- **CI/CD integration** for continuous monitoring
+
+### 📊 Automated Reporting
+- **Executive dashboards** for business stakeholders
+- **Technical reports** for security teams
+- **Compliance mapping** for regulatory requirements
+- **CI/CD integration** for continuous monitoring
+
+### 🔄 Continuous Improvement
+- **Weekly automated validation** via GitHub Actions
+- **Monthly threat landscape updates**
+- **Quarterly risk assessments**
+- **Annual methodology reviews**
 
