@@ -1,0 +1,121 @@
+```yaml
+threats:
+  - id: "ML-001"
+    name: "Training Data Poisoning"
+    category: "Data Integrity"
+    stride_category: "Tampering"
+    likelihood: "Medium"
+    impact: "High"
+    risk_score: 8
+    description: "Attackers inject malicious data into training datasets to compromise model accuracy"
+    business_impact: "$10M+ annual fraud losses due to degraded model performance"
+    attack_scenarios:
+      - "Gradual injection of fraudulent transactions labeled as legitimate"
+      - "Coordinated account creation with poisoned transaction history"
+      - "Compromise of external data sources used for training"
+    detection_methods:
+      - "Statistical drift detection in training data"
+      - "Data lineage and provenance tracking"
+      - "Anomaly detection in feature distributions"
+    current_controls: "None"
+    recommended_controls:
+      - "Robust data validation pipelines"
+      - "Human-in-the-loop verification for training data"
+      - "Adversarial training techniques"
+    estimated_cost: "$500K"
+
+  - id: "ML-002"
+    name: "Adversarial Evasion"
+    category: "Model Manipulation"
+    stride_category: "Spoofing"
+    likelihood: "High"
+    impact: "High"
+    risk_score: 9
+    description: "Crafted inputs designed to fool the ML model into misclassification"
+    business_impact: "$5M+ annual losses from bypassed fraud detection"
+    attack_scenarios:
+      - "Carefully crafted transaction amounts and patterns"
+      - "Timing-based attacks to exploit model weaknesses"
+      - "Feature manipulation to stay below detection thresholds"
+    detection_methods:
+      - "Adversarial input detection algorithms"
+      - "Ensemble model voting discrepancies"
+      - "Real-time anomaly detection in prediction confidence"
+    current_controls: "Basic input validation"
+    recommended_controls:
+      - "Adversarial training and robust optimization"
+      - "Input preprocessing and feature normalization"
+      - "Multiple model consensus mechanisms"
+    estimated_cost: "$300K"
+
+  - id: "ML-003"
+    name: "Model Extraction"
+    category: "Intellectual Property"
+    stride_category: "Information Disclosure"
+    likelihood: "Medium"
+    impact: "Medium"
+    risk_score: 6
+    description: "Attackers query the model systematically to reverse-engineer its logic"
+    business_impact: "$2M+ IP theft and competitive disadvantage"
+    attack_scenarios:
+      - "Systematic API querying to map decision boundaries"
+      - "Shadow model creation through query responses"
+      - "Insider threat accessing model parameters"
+    detection_methods:
+      - "Query pattern analysis and rate limiting"
+      - "Unusual API usage detection"
+      - "Model parameter access monitoring"
+    current_controls: "API rate limiting"
+    recommended_controls:
+      - "Enhanced query monitoring and alerting"
+      - "Differential privacy in model responses"
+      - "Zero-knowledge proof mechanisms"
+    estimated_cost: "$200K"
+
+  - id: "ML-004"
+    name: "Model Inversion"
+    category: "Privacy Violation"
+    stride_category: "Information Disclosure"
+    likelihood: "Low"
+    impact: "High"
+    risk_score: 6
+    description: "Reconstruct sensitive training data from model outputs"
+    business_impact: "GDPR violations, $50M+ regulatory fines"
+    attack_scenarios:
+      - "Membership inference attacks on customer data"
+      - "Reconstruction of transaction patterns"
+      - "Privacy leakage through model explanations"
+    detection_methods:
+      - "Privacy leakage detection algorithms"
+      - "Differential privacy budget monitoring"
+      - "Explanation system audit trails"
+    current_controls: "Basic data anonymization"
+    recommended_controls:
+      - "Differential privacy implementation"
+      - "Federated learning architecture"
+      - "Secure multi-party computation"
+    estimated_cost: "$400K"
+
+  - id: "ML-005"
+    name: "Supply Chain Compromise"
+    category: "Infrastructure"
+    stride_category: "Tampering"
+    likelihood: "Medium"
+    impact: "High"
+    risk_score: 7
+    description: "Compromise of ML libraries, frameworks, or pre-trained models"
+    business_impact: "$15M+ system compromise and recovery costs"
+    attack_scenarios:
+      - "Malicious packages in ML dependency chains"
+      - "Compromised pre-trained models from public repositories"
+      - "Backdoors in third-party ML tools"
+    detection_methods:
+      - "Software composition analysis"
+      - "Model signature verification"
+      - "Behavioral monitoring of ML components"
+    current_controls: "Basic vulnerability scanning"
+    recommended_controls:
+      - "Secure ML supply chain verification"
+      - "Code signing for ML artifacts"
+      - "Runtime integrity monitoring"
+    estimated_cost: "$250K"
