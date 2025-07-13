@@ -54,8 +54,9 @@ graph TD
     
     K[Security Monitoring] --> L[Threat Detection]
     L --> M[Incident Response]
+```
 
-    ## Infrastructure
+## Infrastructure
 - **Cloud Platform:** AWS/Azure/GCP
 - **Container Orchestration:** Kubernetes
 - **ML Platform:** MLflow, Kubeflow
