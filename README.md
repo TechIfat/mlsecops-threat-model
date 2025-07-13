@@ -180,8 +180,8 @@ git push origin feature-branch
 
 ### For Business Stakeholders
 - [Business Impact Analysis](docs/business-impact.md)
-- [Executive Summary](automation/reporting.py) - Generated automatically
-- [Compliance Mapping](automation/reporting.py) - Generated automatically
+- Executive Summary - Available after running `python automation/reporting.py`
+- Compliance Mapping - Available after running `python automation/reporting.py`
 
 ### For Developers
 - [Automation Scripts](automation/)
