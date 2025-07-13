@@ -26,3 +26,20 @@ python automation/reporting.py
 - `automation/` - Automated validation and testing scripts
 - `docs/` - Methodology and business impact analysis
 - `.github/workflows/` - CI/CD integration for continuous threat modeling
+
+## Methodology
+Based on STRIDE framework with ML-specific extensions using OWASP Top 10 ML and MITRE ATT&CK for ML systems.
+
+## Getting Started
+
+### Prerequisites
+- Python 3.9+
+- Required packages: `pyyaml`, `pandas`, `numpy`
+
+### Installation
+```bash
+git clone https://github.com/yourusername/mlsecops-threat-model.git
+cd mlsecops-threat-model
+pip install -r requirements.txt
+### Usage
+#### Run Threat Validation
