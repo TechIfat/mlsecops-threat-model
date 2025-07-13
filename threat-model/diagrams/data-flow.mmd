@@ -1,0 +1,35 @@
+graph TD
+    A[Credit Card Transaction] --> B[API Gateway]
+    B --> C[Input Validation]
+    C --> D[Feature Engineering]
+    D --> E[ML Model]
+    E --> F[Risk Score]
+    F --> G[Business Rules Engine]
+    G --> H[Decision: Approve/Decline/Flag]
+    
+    I[Training Data] --> J[Data Validation]
+    J --> K[Model Training]
+    K --> L[Model Validation]
+    L --> M[Model Deployment]
+    M --> E
+    
+    N[Security Monitoring] --> O[Threat Detection]
+    O --> P[Alert Generation]
+    P --> Q[Incident Response]
+    
+    R[Audit Logging] --> S[Compliance Reporting]
+    S --> T[Regulatory Submission]
+    
+    U[Adversarial Inputs] -.-> C
+    V[Data Poisoning] -.-> I
+    W[Model Extraction] -.-> E
+    X[Evasion Attacks] -.-> E
+    
+    style U fill:#ff9999
+    style V fill:#ff9999
+    style W fill:#ff9999
+    style X fill:#ff9999
+    style C fill:#99ff99
+    style J fill:#99ff99
+    style N fill:#99ff99
+    style R fill:#99ff99
