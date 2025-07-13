@@ -38,7 +38,7 @@ Based on STRIDE framework with ML-specific extensions using OWASP Top 10 ML and 
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/mlsecops-threat-model.git
+git clone https://github.com/TechIfat/mlsecops-threat-model.git
 cd mlsecops-threat-model
 pip install -r requirements.txt
 ```
