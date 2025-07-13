@@ -47,3 +47,19 @@ pip install -r requirements.txt
 ```bash
 python automation/threat-validation.py
 ```
+This validates the threat model structure and identifies coverage gaps.
+
+#### Test Security Controls
+```bash
+python automation/control-testing.py
+```
+This tests the effectiveness of implemented security controls.
+
+#### Generate Reports
+```bash
+python automation/reporting.py
+```
+This generates executive summaries and technical reports.
+
+#### Key Features
+
