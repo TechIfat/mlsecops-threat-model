@@ -56,3 +56,5 @@ graph TD
     
     K[Security Monitoring] --> L[Threat Detection]
     L --> M[Incident Response]
+    ```
+    ```
