@@ -20,7 +20,7 @@ python automation/threat-validation.py
 
 # Generate reports
 python automation/reporting.py
-
+```
 ## Repository Structure
 - `threat-model/` - Core threat analysis and security controls
 - `automation/` - Automated validation and testing scripts
@@ -41,7 +41,7 @@ Based on STRIDE framework with ML-specific extensions using OWASP Top 10 ML and 
 git clone https://github.com/yourusername/mlsecops-threat-model.git
 cd mlsecops-threat-model
 pip install -r requirements.txt
-
+```
 ### Usage
 #### Run Threat Validation
 Copypython automation/threat-validation.py
