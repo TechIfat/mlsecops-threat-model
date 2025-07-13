@@ -82,15 +82,50 @@ This generates executive summaries and technical reports.
 - **Compliance mapping** for regulatory requirements
 - **CI/CD integration** for continuous monitoring
 
-### 📊 Automated Reporting
-- **Executive dashboards** for business stakeholders
-- **Technical reports** for security teams
-- **Compliance mapping** for regulatory requirements
-- **CI/CD integration** for continuous monitoring
-
 ### 🔄 Continuous Improvement
 - **Weekly automated validation** via GitHub Actions
 - **Monthly threat landscape updates**
 - **Quarterly risk assessments**
 - **Annual methodology reviews**
 
+## Threat Categories
+
+### 1. Data Poisoning (Risk Score: 8/10)
+- **Impact:** $10M+ annual fraud losses
+- **Mitigation:** Data validation pipeline ($500K)
+- **Timeline:** 6 months implementation
+
+### 2. Adversarial Evasion (Risk Score: 9/10)
+- **Impact:** $5M+ bypass losses
+- **Mitigation:** Adversarial training ($300K)
+- **Timeline:** 4 months implementation
+
+### 3. Model Extraction (Risk Score: 6/10)
+- **Impact:** $2M+ IP theft
+- **Mitigation:** Enhanced API monitoring ($200K)
+- **Timeline:** 3 months implementation
+
+### 4. Privacy Violations (Risk Score: 6/10)
+- **Impact:** $50M+ regulatory fines
+- **Mitigation:** Differential privacy ($400K)
+- **Timeline:** 8 months implementation
+
+### 5. Supply Chain Compromise (Risk Score: 7/10)
+- **Impact:** $15M+ system recovery
+- **Mitigation:** Secure ML pipeline ($250K)
+- **Timeline:** 5 months implementation
+
+## Security Controls
+
+### Implemented Controls
+- ✅ Basic API rate limiting
+- ✅ Input validation (basic)
+- ✅ Audit logging
+- ✅ Basic data anonymization
+
+### Planned Controls
+- 🔄 Data validation pipeline
+- 🔄 Adversarial training
+- 🔄 Enhanced API monitoring
+- 🔄 Differential privacy
+- 🔄 Supply chain security
