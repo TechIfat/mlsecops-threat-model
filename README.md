@@ -20,3 +20,9 @@ python automation/threat-validation.py
 
 # Generate reports
 python automation/reporting.py
+
+## Repository Structure
+- `threat-model/` - Core threat analysis and security controls
+- `automation/` - Automated validation and testing scripts
+- `docs/` - Methodology and business impact analysis
+- `.github/workflows/` - CI/CD integration for continuous threat modeling
