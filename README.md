@@ -44,5 +44,6 @@ pip install -r requirements.txt
 ```
 ### Usage
 #### Run Threat Validation
-Copypython automation/threat-validation.py
-
+```bash
+python automation/threat-validation.py
+```
