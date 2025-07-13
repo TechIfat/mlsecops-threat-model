@@ -190,9 +190,10 @@ git push origin feature-branch
 ## Support
 
 ### Contact
-- 📧 Email: [your-email@domain.com](mailto:your-email@domain.com)
-- 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub: [Your GitHub](https://github.com/yourusername)
+### Contact
+- 💼 LinkedIn: [Ifat Noreen](https://www.linkedin.com/in/ifat-noreen-89b00483/)
+- 🐙 GitHub: [TechIfat](https://github.com/TechIfat)
+- 📧 Email: Available upon request
 
 ### Feedback
 - 🐛 Issues: Use GitHub Issues
@@ -212,7 +213,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Last Updated:** 2025-01-12  
+**Last Updated:** 2025-07-13  
 **Version:** 1.0  
-**Maintainer:** [Your Name]  
+**Maintainer:** Ifat Noreen 
 **Status:** ✅ Portfolio Project
