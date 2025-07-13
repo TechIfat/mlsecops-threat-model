@@ -6,8 +6,8 @@ threats:
     likelihood: "Medium"
     impact: "High"
     risk_score: 8
-    description: "Attackers inject malicious data into training datasets to compromise model accuracy"
-    business_impact: "$10M+ annual fraud losses due to degraded model performance"
+    description: "Attackers inject malicious data into training datasets"
+    business_impact: "$10M+ annual fraud losses"
     attack_scenarios:
       - "Gradual injection of fraudulent transactions labeled as legitimate"
       - "Coordinated account creation with poisoned transaction history"
